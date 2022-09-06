@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "mapolice";
+  src:url('fonts/Rubik-Italic-VariableFont_wght.ttf')
+}
+
+
+body{
+	width: 40%;
+	margin: auto;
+	background-image: url("../images/Capture11.PNG");
+	background-repeat: no-repeat;
+	background-size: 1430px;
+	font-family: sans-serif;
+    
+
+}
+
+
+.pass{
+	color: #1e555c;
+
+}
+
+
+input{
+	width: 590px;
+	height: 31px;
+	margin: 10px;
+	border-radius: 30px;
+	transition-property: border-color,color;
+	transition-duration: 1s;
+	border: 1px solid BLACK;
+    margin-bottom: 20px;
+    transform: translateY(-25px);
+}
+
+ #nom::placeholder{
+ color:#87CEEB;
+ transform: translateY(-13px);
+}
+
+
+
+
+
+section{
+	background: WHITE;
+	border-radius: 20px;
+	width: 630px;
+	height: 580px;
+	position: relative;
+	top: 150px;
+	/*left: 20px;*/
+	transform: translateY(-120px);
+	margin-right: 150px;
+	padding-left:20PX;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+#image{
+	position: relative;
+	left: 45%;
+}
+
+
+
+
+input:focus ~label,
+input:valid ~label
+{
+	color: #f7497d;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+#mes_competence{
+    border-radius:30px;
+	width: 130px;
+	text-align: center;
+	border:2px solid black;
+	height: 20px;
+	font-size: 14px;
+	padding: 3PX;
+}
+
+#mes_competences{
+	border-radius:30px;
+	margin: 13px;
+	width: 190px;
+	text-align: center;
+	border:2px solid black;
+	height: 20px;
+    font-size: 14px;
+    	padding: 3PX;
+
+
+}
+
+.soe div {
+	display: inline-block;
+	box-sizing: border-box;
+    color:black;
+    font-size: 10px;
+    height: 35px;
+    margin-left:20px;
+    font-size: 14px;
+
+}
+
+#mes{
+    border-radius:30px;
+	margin: 5px;
+	width: 130px;
+	text-align: center;
+	border:2px solid black;
+	height: 20px;
+	    font-size: 14px;
+	padding: 3PX;
+
+}
+
+#me{
+	border-radius:30px;
+	margin: 5px;
+	width: 90px;
+	text-align: center;
+	border:2px solid black;
+	height: 20px;
+	    font-size: 14px;
+	padding: 3PX;
+
+}
+
+#politi{
+	border-radius:30px;
+	margin: 5px;
+	width: 90px;
+	text-align: center;
+	border:2px solid black;
+	height: 20px;
+	padding: 2px;
+	    font-size: 14px;
+	padding: 3PX;
+
+}
+
+
+.Selectionnez{
+	margin-bottom: 40px;
+	outline-style: none;
+}
+
+aside{
+	transform: translateY(-30px);
+}
+
+#image{
+	position: relative;
+	left: 45%;
+}
+
+a{
+	text-decoration: none;
+	transition-property: text-decoration;
+	color:#87CEEB;
+	float: right;
+}
+
+aside a{
+	color:black;
+}
+
+.so div {
+	display: inline-block;
+	box-sizing: border-box;
+    color:black;
+    height: 35px;
+    margin-left:6px;
+    font-size: 14px;
+    transform: translateX(28px);
+}

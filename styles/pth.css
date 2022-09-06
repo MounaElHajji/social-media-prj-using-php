@@ -1,0 +1,76 @@
+
+body{
+	width: 40%;
+	margin: auto;
+	background-image: url("../images/Capture11.PNG");
+	background-repeat: no-repeat;
+	background-size: 1430px;
+    font-family: sans-serif;
+
+}
+
+a{
+	text-decoration: none;
+	transition-property: text-decoration;
+	color:#7f5539;
+	float: right;
+}
+a:hover{
+	text-decoration: underline;
+}
+section{
+	 background: white;
+	border-radius: 20px;
+	width: 630px;
+	height: 580px;
+	position: relative;
+	top: 150px;
+	/*left: 20px;*/
+	transform: translateY(-120px);
+	margin-right: 150px;
+	padding-left:20PX;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+#image{
+	position: relative;
+	left: 45%;
+}
+
+
+#file{
+	height: 150px;
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 100px; 
+	background-image: url("../images/photo.jpg");
+	background-repeat: no-repeat;
+	background-size: 155px; 
+	margin-left: 230px;
+	transform: translateY(40px);
+	outline-style: none;
+}
+
+#imag{
+	border: 2px solid black; 
+	border-radius: 100px; 
+	margin-left: 232px;
+	width: 150px;
+	transform: translateY(115px);
+}
+
+#enre{
+	border-radius: 30px;
+	background-color: #DEB887;
+	height: 40px;
+	width: 200px;
+	cursor: pointer;
+}
+
+#enreg{
+	margin-left: 500px;
+	border-radius: 30px;
+	height: 30px;
+	margin-top: 40px;
+	cursor: pointer;
+}

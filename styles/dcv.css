@@ -1,0 +1,79 @@
+
+body{
+	width: 40%;
+	margin: auto;
+	background-image: url("../images/Capture11.PNG");
+	background-repeat: no-repeat;
+	background-size: 1500px;
+    font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+	transition-property: text-decoration;
+	color:#a56336;
+	float: right;
+}
+#bio{
+	height: 50px;
+	border-radius: 30px;
+	background-color: #DEB887;
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+section{
+	 background: white;
+	border-radius: 20px;
+	width: 630px;
+	height: 580px;
+	position: relative;
+	top: 150px;
+	/*left: 20px;*/
+	transform: translateY(-120px);
+	margin-right: 150px;
+	padding-left:20PX;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+#image{
+	position: relative;
+	left: 45%;
+}
+
+
+textarea{
+	width: 590px;
+	height: 69px;
+	margin: 5px;
+	border-radius: 5px;
+	transition-property: border-color,color;
+	transition-duration: 1s;
+	border: 1px solid BLACK;
+    margin-bottom: 13px;
+}
+
+
+#bio{
+	box-sizing: border-box;
+	width:410px;
+	margin-left: 40px;
+	font-size: 19px;
+	color: grey;
+}
+
+#by{
+border-radius: 30px;
+background-color: #DEB887;
+cursor: pointer;
+}
+
+.Decrivez{
+	font-size: 30px;
+}
+
+textarea:hover{
+	color:#a56336;
+}

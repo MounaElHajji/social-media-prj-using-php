@@ -1,0 +1,168 @@
+.col{
+	box-sizing: border-box;
+	width: 50px;
+	border:2px solid #F0F0F0;
+    height: 300px;
+    margin-left: 40px;
+}
+
+#para{
+	width: 300px;
+	text-align: center;
+}
+
+
+#suvant{
+	float: right;
+	background-color: #A52A2A;
+	border-radius: 30px;
+	width: 100px;
+	cursor: pointer;
+}
+
+#chercher{
+	width: 400px;
+	height: 46px;
+	border-radius: 30px;
+}
+
+nav{
+	width: 15%;
+	height: 600px;
+	padding-top: 60px;
+	line-height: 40px;
+	position: fixed;
+	border:1px solid grey;
+
+}
+
+
+#sala{
+	
+	font-size: 28px;
+}
+
+#sala p{
+	transform: translateY(50px);
+	margin-left: 20px;
+}
+
+#sala:hover{
+	background-color: rgb(255, 173, 71);
+	
+	border-radius: 50px;
+}
+
+
+img{
+	width: 40px;
+	height: 40px;
+}
+
+.containe{
+	box-sizing: border-box;
+	width: 1000px;
+	
+	margin-left: 300px;
+}
+
+
+a{
+	text-decoration: none;
+	color:black;
+	transition-property: color,background,border;	
+}
+
+#second{
+	text-align: center; 
+}
+
+.third input{
+
+	width: 550px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: #DCDCDC;
+	outline-style: none; 
+
+}
+
+#fourth{
+	background-color: pink;
+	border: 1px solid black;
+	margin-left: 500px;
+	width: auto;
+	margin-top: 10px;
+	border-radius: 30px;
+    height: 30px;
+
+}
+
+.ss{
+	overflow: auto;
+}
+
+#envoyer{
+	width: 80px;
+}
+
+#recherche{
+	width: 300px;
+}
+
+.cotainer{
+	position: relative;
+    width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	background: white;
+    transition: 0.5s;
+}
+
+
+.cotainer .content 
+{
+	position: relative;
+	max-width: 2200px;
+}
+ 
+.cotainer#blur.active{
+filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
+}
+
+#popup{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 300px;
+	padding: 50px;
+	box-shadow:  0 5px 30px rgba(0,0,0,.30);
+	background:#FFEBCD;
+	border-radius: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+
+}
+#popup.active{
+	top:50%;
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+}
+#sty{
+	font-size: 20px;
+	color:#a56336;
+}
+
+#dd{
+	margin-left: 450px;
+	transform: translateY(-1400px);
+	font-size: 4px;
+	color: black;
+}

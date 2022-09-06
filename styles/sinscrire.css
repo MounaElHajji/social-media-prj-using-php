@@ -1,0 +1,162 @@
+body{
+	width: 40%;
+	margin: auto;
+	background-image: url("../images/Capture11.PNG");
+	background-repeat: no-repeat;
+	background-size: 1450px;
+    font-family: sans-serif;
+
+
+}
+
+input{
+	width: 590px;
+	height: 65px;
+	margin: 15px;
+	border-radius: 5px;
+	transition-property: border-color,color;
+	transition-duration: 1s;
+	border: 1px solid BLACK;
+    margin-bottom: 20px;
+}
+
+ #nom::placeholder{
+ color:#7f5539;
+ transform: translateY(-13px);
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+select{
+	height: 60px;
+	width: 20%;
+	border-radius: 5px;
+	transition-property: border-color;
+	transition-duration: 1s;
+}
+input:hover{
+	border-color: #7f5539;
+	color: #7f5539;
+	
+}
+select:hover{
+	border-color: #7f5539;
+	color: #7f5539;
+}
+a{
+	text-decoration: none;
+	transition-property: text-decoration;
+	color:#7f5539;
+}
+a:hover{
+	text-decoration: underline;
+}
+section{
+	 background: white;
+	border-radius: 20px;
+	width: 630px;
+	height: 580px;
+	position: relative;
+	top: 150px;
+	/*left: 20px;*/
+	transform: translateY(-120px);
+	margin-right: 150px;
+	padding-left:20PX;
+	padding-right: 20px;
+	padding-top: 10px;
+	
+}
+#image{
+	position: relative;
+	left: 45%;
+}
+
+.mois{
+	width:300px;
+	height:60px;
+	margin-right: 10px;
+}
+
+.jour{
+	width:120px;
+	height:60px;
+	margin-right: 5px;
+}
+
+.annee{
+	width:170px;
+	height:60px;
+	margin-right: 10px;
+}
+
+.suiv{
+	width:110px;
+	height: 35px;
+	background-color: #7f5539;
+	float: right;
+	border: 0px solid white;
+	border-radius: 20px;
+	color: white;
+	font-size: 15px;
+	transform: translateY(-10px);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+input:focus ~label,
+input:valid ~label
+{
+	top: -12px;
+	left:0;
+	color: #f7497d;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+ input:focus ~ label,
+input:valid ~ label
+{
+
+	border-bottom: 2px solid #f7497d;
+}
+
+.error{
+	color: red;
+	margin-left: 25px;
+	font-size: 15px;
+
+}
+
+
+
+.firs{
+	margin-top: 25px;
+}
+
+.erro{
+	color: red;
+	margin-left: 18px;
+	font-size: 15px;
+	transform: translateY(-330px);
+}
+
+.err{
+	color: red;
+	margin-left: 18px;
+	font-size: 15px;
+	transform: translateY(-220px);
+}
+
+.aa{
+	transform: translateY(10px);
+	font-size: 18PX;
+}
+
+.add{
+	
+	float: right;
+}

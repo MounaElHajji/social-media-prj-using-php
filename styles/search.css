@@ -1,0 +1,67 @@
+.nav:hover{
+	width:200px; 
+	height:50px;
+	background-color: #FFEBCD;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+nav{
+	line-height: 50px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#user{
+	font-size: 20px;
+}
+
+.container{
+	margin-left: 400px;
+	border: 1px solid #F0F0F0;
+	height: auto;
+	width:600px;
+	transform: translateY(-500px);
+}
+
+#sala{
+	
+	font-size: 28px;
+	
+}
+
+#sala p{
+	margin-left: 70px;
+	line-height: 10px;
+	transform: translateY(30px);
+}
+
+#sala:hover{
+	background-color:#FFEBCD;
+	border-radius: 50px;
+	width: 400px;
+	height: 80px;
+	transform: translateY(5px);
+}
+
+#img2{
+	border-radius: 50px;
+	transform: translateY(-28px);
+	margin-right: 3px;
+}
+
+#img1{
+	border-radius: 50px;
+	
+}
+
+#suivre{
+	width:100px;
+	border-radius: 50px;
+	float: right;
+	height: 34px;
+}

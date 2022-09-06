@@ -1,0 +1,104 @@
+body{
+	
+ margin: 0 auto;
+font-family: sans-serif;
+
+}
+
+section{
+	margin-left: 700px;
+box-sizing: border-box;
+transform: translateY(-550px);
+width:500px;
+height: 0.0005PX;
+padding-left: 110px;
+
+}
+
+#as{
+	transform: translateY(10px);
+}
+
+aside{
+	background: #a56336;
+	width:660px;
+	height:600PX;
+    background-image: url("../images/6Sans titre.png");
+    background-size: 700px;
+}
+
+
+#inscrire{
+	color:white;
+	width: 450px;
+	background:#a56336;
+	border: 0PX solid white;
+	border-radius: 23px;
+	height: 42px;
+	cursor: pointer;
+}
+
+#connecter{
+	color:#1e555c;
+	width: 450px;
+	border: 1PX solid #a56336;
+	background: white;
+	border-radius: 23px;
+	height: 42px;
+	cursor: pointer;
+}
+
+
+.phrase{
+
+	width:290px;
+
+}
+
+
+.log{
+	float: right;
+}
+
+.suiv{
+	margin-top: 70px;
+	margin-left: 100px;
+	color: black;
+}
+
+.poi{
+	margin-right: 100px;
+}
+
+footer  {
+	background-color: WHITE;
+	color:#a56336;
+    margin-top: 20px;
+    font-size: 7px;
+    height: 85px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.mama #mes_competences {
+	display: inline-block;
+	box-sizing: border-box;
+    text-align: center;
+    color:GREY;
+    vertical-align:top;
+    margin-left: 15PX;
+}
+
+.soe #mes_competences {
+	display: inline-block;
+	box-sizing: border-box;
+    color:GREY;
+    vertical-align:top;
+    margin-left: 13PX;
+    transform: translateX(300px);
+    bottom: 30PX;
+}
+
+

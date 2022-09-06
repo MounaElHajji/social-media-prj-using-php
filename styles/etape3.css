@@ -1,0 +1,142 @@
+
+body{
+	width: 40%;
+	margin: auto;
+	background-image: url("../images/Capture11.PNG");
+	background-repeat: no-repeat;
+	background-size: 1430px;
+    font-family: sans-serif;
+
+
+}
+
+::value{
+font-weight: bold;
+}
+
+
+input{
+	width: 590px;
+	height: 58px;
+	margin: 5px;
+	border-radius: 5px;
+	transition-property: border-color,color;
+	transition-duration: 1s;
+	border: 1px solid BLACK;
+    margin-bottom: 13px;
+}
+
+ #nom::placeholder{
+ color:black;
+ transform: translateY(-13px);
+}
+
+
+select{
+	height: 60px;
+	width: 20%;
+	border-radius: 5px;
+	transition-property: border-color;
+	transition-duration: 1s;
+}
+input:hover{
+	border-color: #a56336;
+	color: #a56336;
+	
+}
+select:hover{
+	border-color: #a56336;
+	color: #a56336;
+}
+a{
+	text-decoration: none;
+	transition-property: text-decoration;
+	color:#a56336;
+}
+a:hover{
+	text-decoration: underline;
+}
+section{
+	 background: white;
+	border-radius: 20px;
+	width: 630px;
+	height: 580px;
+	position: relative;
+	top: 150px;
+	/*left: 20px;*/
+	transform: translateY(-120px);
+	margin-right: 150px;
+	padding-left:20PX;
+	padding-right: 20px;
+	padding-top: 10px;
+	overflow: auto;
+}
+#image{
+	position: relative;
+	left: 45%;
+}
+
+.mois{
+	width:300px;
+	height:60px;
+	margin-right: 10px;
+}
+
+.jour{
+	width:120px;
+	height:60px;
+	margin-right: 5px;
+}
+
+.annee{
+	width:170px;
+	height:60px;
+	margin-right: 10px;
+}
+
+.suiv{
+	width:600px;
+	height: 45px;
+	background-color: #a56336;
+	border: 0px solid white;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	transform: translateY(-10px);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+input:focus ~label,
+input:valid ~label
+{
+	top: -12px;
+	left:0;
+	color: #f7497d;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#inscrire{
+	color:white;
+	width: 540px;
+	background: #228b22;
+	border: 0PX solid white;
+	border-radius: 23px;
+	height: 45px;
+	font-size: 19px;
+	margin-left: 27PX;
+}
+
+.para{
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+#asi{
+	transform: translateY(-90px);
+	margin-left: 58PX;
+	width: 540px;
+	height: 54PX;
+}

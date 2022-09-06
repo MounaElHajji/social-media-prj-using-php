@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "mapolice";
+  src:url('../fonts/Rubik-Italic-VariableFont_wght.ttf')
+}
+
+
+body{
+	width: 40%;
+	margin: auto;
+	background-image: url("../images/Capture11.PNG");
+	background-repeat: no-repeat;
+	background-size: 1430px;
+	font-family: sans-serif;
+
+}
+
+input{
+	width: 590px;
+	height: 65px;
+	margin: 10px;
+	border-radius: 5px;
+	transition-property: border-color,color;
+	transition-duration: 1s;
+	border: 1px solid BLACK;
+    margin-bottom: 20px;
+}
+
+ #nom::placeholder{
+ color:#a56336;
+ transform: translateY(-13px);
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+select{
+	height: 60px;
+	width: 20%;
+	border-radius: 5px;
+	transition-property: border-color;
+	transition-duration: 1s;
+}
+input:hover{
+	border-color: #a56336;
+	color: #a56336;
+	
+}
+select:hover{
+	border-color: #a56336;
+	color: #a56336;
+}
+a{
+	text-decoration: none;
+	transition-property: text-decoration;
+	color:#a56336;
+}
+a:hover{
+	text-decoration: underline;
+}
+div{
+	background: WHITE;
+	border-radius: 20px;
+	width: 630px;
+	height: 580px;
+	position: relative;
+	top: 150px;
+	/*left: 20px;*/
+	transform: translateY(-120px);
+	margin-right: 150px;
+	padding-left:20PX;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+#image{
+	position: relative;
+	left: 35%;
+}
+
+.mois{
+	width:300px;
+	height:60px;
+	margin-right: 10px;
+}
+
+.jour{
+	width:120px;
+	height:60px;
+	margin-right: 5px;
+}
+
+.annee{
+	width:170px;
+	height:60px;
+	margin-right: 10px;
+}
+
+.suiv{
+	width:110px;
+	height: 35px;
+	background-color: #a56336;
+	float: right;
+	border: 0px solid white;
+	border-radius: 20px;
+	color: white;
+	font-size: 15px;
+	transform: translateY(-10px);
+	font-weight: bold;
+}
+
+
+input:focus ~label,
+input:valid ~label
+{
+	top: -12px;
+	left:0;
+	color: #f7497d;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.check{
+	width:20px;
+	height: 20px;
+	float: right;
+	transform: translateY(-95px);
+	outline: 1px solid grey;
+}
+
+
+
+.para{
+	width:585px;
+	font-size: 19px;
+	margin-bottom: 40px;
+    color:black;
+}
+
+.pers{
+		margin-bottom: 40px;
+
+}
+
+
+.clo{
+	color:grey;
+	font-size: 18px;
+}
+
+.flech{
+	transform: translateY(-15px);
+}
